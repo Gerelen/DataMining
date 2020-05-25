@@ -37,7 +37,7 @@ def NewEgg(product,amount=int,price=True,review=False,brand=False,
 		Review: Set False by default. If True, it will display reviews and stars.
 		Brand: Set False by default. If True, it will display brand of item.
 		default_brand: Brand for motherboard. Set to Intel by default.
-		location: Location for SSD. Set to Internal by default."""
+		location: Location for SSD set to Internal by default."""
 
 	if product.capitalize() not in items:
 		raise Exception('Please choose one of these items: {}'.format([item for item in items]))
